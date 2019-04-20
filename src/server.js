@@ -40,4 +40,4 @@ app.use(require("./routes")) //o ponto significa pasta atual, sem o ponto o arqu
 
 
 
-server.listen(3333);
+server.listen(process.env.PORT || 3333);
